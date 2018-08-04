@@ -1,1 +1,4 @@
+datasource.url: jdbc:mysql://localhost:3306/mw1?useSSL=false
+datasource.username: "{cipher}dfe7d812948fdbd975eb718d83a21b57abed4ae45002850275b4bd927401b465"
+datasource.password: "{cipher}dfe7d812948fdbd975eb718d83a21b57abed4ae45002850275b4bd927401b465"
 example.property: "config-server-ok"
