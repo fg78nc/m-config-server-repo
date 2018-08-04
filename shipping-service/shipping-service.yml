@@ -1,5 +1,5 @@
 datasource.url: jdbc:mysql://localhost:3306/mw2?useSSL=false
-datasource.username: "{cypher}dfe7d812948fdbd975eb718d83a21b57abed4ae45002850275b4bd927401b465"
-datasource.password: "{cypher}dfe7d812948fdbd975eb718d83a21b57abed4ae45002850275b4bd927401b465"
+datasource.username: "{cipher}dfe7d812948fdbd975eb718d83a21b57abed4ae45002850275b4bd927401b465"
+datasource.password: "{cipher}dfe7d812948fdbd975eb718d83a21b57abed4ae45002850275b4bd927401b465"
 example.property: "config-server-ok"
 secret.property: "{cipher}99a5e5a65f49b8ba38e22d6bbcde728fda785c4c9fe7f20cdedf4d24775fbbe8"
