@@ -1,0 +1,19 @@
+zuul:
+  prefix: "/api"
+  strip-prefix: false
+  routes:
+    customers:
+      path: /cstm/**
+      serviceID: customer-service
+    customer-service: /customer-service/**
+    shipping-service: /shipping-service/**
+    static:
+      path: /static/**
+      url: http://host-static:8085
+  ignored-services:
+    - customer-service
+    - shipping-service
+  host:
+    max-total-connections: 100
+    max-per-route-connections: 10
+  ribbon-isolation-strategy: semaphore
