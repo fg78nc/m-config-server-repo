@@ -6,7 +6,7 @@ secret.property: "{cipher}99a5e5a65f49b8ba38e22d6bbcde728fda785c4c9fe7f20cdedf4d
 cb.iso-thr-timeout: 10000
 cb.req-vol-thr: 10
 cb.err-thr-per: 70
-cb.num-cor: 20
+cb.num-cor: 21
 cb.max-que-siz: 10
 cb.rol-sta-tim-mil: 14000
 cb.num-buc: 10
