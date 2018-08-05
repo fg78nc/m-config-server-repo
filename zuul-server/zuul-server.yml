@@ -1,3 +1,4 @@
 route.customer.service: "/customer-service/**"
 route.shipping.service: "/shipping-service/**"
 route.prefix: "/api"
+zuul.routes.dynamicroute: "/new-dynamic-route"
